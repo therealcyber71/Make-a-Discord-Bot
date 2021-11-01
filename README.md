@@ -22,30 +22,41 @@ To get started head to the Discord developer portal.
 Should look something like this.
 
 Next up, head to the applications section in the menu at the left.
+
 ![Applications menu](https://cdn.discordapp.com/attachments/904555117896937524/904555410864873472/unknown.png)
 
 This is where we'll be making our new application.
 
 The application dashboard should look something like this.
+
 ![Application dashboard](https://cdn.discordapp.com/attachments/904555117896937524/904555632730972160/unknown.png)
+
 Click on the New Application Button as highlighted.
 
 This leads to a dialogue box being opened which looks something like this:
+
 ![DB](https://cdn.discordapp.com/attachments/904555117896937524/904555747059310602/unknown.png)
 Enter your bots name.
 
 After this the Application Dashboard will now redirect to a page which looks like this:
+
 ![Page redirect](https://cdn.discordapp.com/attachments/904555117896937524/904555846040707072/unknown.png)
 This is the application control page.
 
-After that is done, head towards the Bot option under the menu in the left ![Menu left](https://cdn.discordapp.com/attachments/904555117896937524/904556394253017118/unknown.png)
+After that is done, head towards the Bot option under the menu in the left
+
+![Menu left](https://cdn.discordapp.com/attachments/904555117896937524/904556394253017118/unknown.png)
+
 Click on the Add Bot option as highlighted.
 
 A dialogue box appears prompting you to add a bot.
+
 ![Bot](https://cdn.discordapp.com/attachments/904555117896937524/904556438469345331/unknown.png)
 
 This leads you to the Bot page,
+
 ![Bot page](https://cdn.discordapp.com/attachments/904555117896937524/904556485235863582/unknown.png)
+
 Here you can add a cool pfp for your bot!
 
 Here you'll notice something called, a "Token", do not share this with anyone, it can be misused. This Token is something like the API key.
@@ -55,10 +66,14 @@ We will need this as we're about to start coding!
 ### The actual code
 
 Our Directory should look something like this:
+
 ![Directory](https://cdn.discordapp.com/attachments/904555117896937524/904563713720344616/unknown.png)
+
 Now lemme explain what the env file is, it is usually used to store environment variables. Here we'll be using it to store Discord API "Token".
 Here's how you must fill an env file, first in notepad, write the following:
+
 ![text](https://cdn.discordapp.com/attachments/904555117896937524/904563325629779988/unknown.png)
+
 Now save this file as an env file by changing it's extension and you're good to go.
 
 
@@ -179,25 +194,33 @@ Now let's invite this to a server!
 
 Head to the Developer Portal again, Go to the OAuth2 dashboard.
 Scroll down and you'll find scopes section, click on the bot scope.
+
 ![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/j298oqqlgxdsyscto96d.png)
 
 Scroll down and you'll find a Permission checker for the Bot.
 Since these are the Perms needed by my bot I will be checking those off.
+
 ![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/zc97monvkgjbc4bk1iua.png)
 
 Now copy the Link provided, this is your bots invite link!
+
 ![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/leewy4nclg07wokr6s54.png)
 
 Paste it in your browser and you will be redirected to the Invite page.
+
 ![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/4x21z3756wluwp358lkn.png)
 
 It should lead you to this page once authorised.
+
 ![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/nqgz5jfavzuhb07x6mh5.png)
 
 Now let's test it out in our server!
 First run the script and this should appear in the shell.
+
 ![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/n6aij57257f47fworprw.png)
+
 In the server the bot should appear online.
+
 ![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/ak95zk6kntwkmaowy8cv.png)
 
 Now let's test all the features:
@@ -207,26 +230,37 @@ Now let's test all the features:
 4. Help command
 
 Test case-1: Show help command
+
 ![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/p1hcee7rqqf0zu8omyfm.png)
+
 Result: Passed
 
 Test case-2: Kick user
+
 ![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/s3t9zmi65qb7f8zcfyus.png)
+
 This is the other user named Earth Chan, we are going to try and kick it.
 
 ![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/m8ydq3xcw0h9wwvdplxp.png)
+
 The user is now kicked.
 Result: Passed 
 
 Test case-3: Ban user
 We are going to invite the same user and try banning them.
+
 ![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/s3t9zmi65qb7f8zcfyus.png)
+
 The user has been banned.
+
 ![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/jix91qt068ntpf2q3b8h.png)
+
 Result: Passed
 
 Test case-4: Get user avatar
+
 ![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/myiqcf07ulglmorzmrda.png)
+
 Result: Passed
 
 Our bot has passed all the test cases! You can add tons of other features to it and make it more versatile. The possibilities are endless.
