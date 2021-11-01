@@ -18,28 +18,35 @@ Here we'll be configuring the bot user and the Discord API.
 
 To get started head to the Discord developer portal.
 ![DDP](https://cdn.discordapp.com/attachments/904555117896937524/904555204618375168/unknown.png)
+
 Should look something like this.
 
 Next up, head to the applications section in the menu at the left.
 ![Applications menu](https://cdn.discordapp.com/attachments/904555117896937524/904555410864873472/unknown.png)
+
 This is where we'll be making our new application.
 
 The application dashboard should look something like this.
-![Application dashboard](https://cdn.discordapp.com/attachments/904555117896937524/904555632730972160/unknown.png) Click on the New Application Button as highlighted.
+![Application dashboard](https://cdn.discordapp.com/attachments/904555117896937524/904555632730972160/unknown.png)
+Click on the New Application Button as highlighted.
 
 This leads to a dialogue box being opened which looks something like this:
-![DB](https://cdn.discordapp.com/attachments/904555117896937524/904555747059310602/unknown.png) Enter your bots name.
+![DB](https://cdn.discordapp.com/attachments/904555117896937524/904555747059310602/unknown.png)
+Enter your bots name.
 
 After this the Application Dashboard will now redirect to a page which looks like this:
-![Page redirect](https://cdn.discordapp.com/attachments/904555117896937524/904555846040707072/unknown.png) This is the application control page.
+![Page redirect](https://cdn.discordapp.com/attachments/904555117896937524/904555846040707072/unknown.png)
+This is the application control page.
 
-After that is done, head towards the Bot option under the menu in the left ![Menu left](https://cdn.discordapp.com/attachments/904555117896937524/904556394253017118/unknown.png) Click on the Add Bot option as highlighted.
+After that is done, head towards the Bot option under the menu in the left ![Menu left](https://cdn.discordapp.com/attachments/904555117896937524/904556394253017118/unknown.png)
+Click on the Add Bot option as highlighted.
 
 A dialogue box appears prompting you to add a bot.
 ![Bot](https://cdn.discordapp.com/attachments/904555117896937524/904556438469345331/unknown.png)
 
 This leads you to the Bot page,
-![Bot page](https://cdn.discordapp.com/attachments/904555117896937524/904556485235863582/unknown.png) Here you can add a cool pfp for your bot!
+![Bot page](https://cdn.discordapp.com/attachments/904555117896937524/904556485235863582/unknown.png)
+Here you can add a cool pfp for your bot!
 
 Here you'll notice something called, a "Token", do not share this with anyone, it can be misused. This Token is something like the API key.
 
@@ -48,9 +55,11 @@ We will need this as we're about to start coding!
 ### The actual code
 
 Our Directory should look something like this:
-![Directory](https://cdn.discordapp.com/attachments/904555117896937524/904563713720344616/unknown.png) Now lemme explain what the env file is, it is usually used to store environment variables. Here we'll be using it to store Discord API "Token".
+![Directory](https://cdn.discordapp.com/attachments/904555117896937524/904563713720344616/unknown.png)
+Now lemme explain what the env file is, it is usually used to store environment variables. Here we'll be using it to store Discord API "Token".
 Here's how you must fill an env file, first in notepad, write the following:
-![text](https://cdn.discordapp.com/attachments/904555117896937524/904563325629779988/unknown.png) Now save this file as an env file by changing it's extension and you're good to go.
+![text](https://cdn.discordapp.com/attachments/904555117896937524/904563325629779988/unknown.png)
+Now save this file as an env file by changing it's extension and you're good to go.
 
 
 ### Bot scope
@@ -202,7 +211,8 @@ Test case-1: Show help command
 Result: Passed
 
 Test case-2: Kick user
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/s3t9zmi65qb7f8zcfyus.png) This is the other user named Earth Chan, we are going to try and kick it.
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/s3t9zmi65qb7f8zcfyus.png)
+This is the other user named Earth Chan, we are going to try and kick it.
 
 ![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/m8ydq3xcw0h9wwvdplxp.png)
 The user is now kicked.
